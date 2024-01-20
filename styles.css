@@ -1,37 +1,28 @@
-.landing-page-header {
-    text-align: center;
-    font-size: 300%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+body {
+    margin: 0;
+    padding: 0;
 }
 
+
 .banner {
+    position: fixed;
     background-color: #EC524B;
     padding: 10px;
+    width: 100%;
     height: 20vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
 }
 
-.title-text {
-    width: 30%;
-    height: auto;
-}
-
-.title-text img {
-    max-width: 75%;
+#title-text {
+    width: 20%;
     height: auto;
     align-self: center;
 }
 
-.content {
-    flex: 1;
-    padding: 20px;
-}
-
-.container {
+.login-container {
     max-width: 50%;
     margin: auto;
     background-color: #fff;
@@ -57,5 +48,88 @@ input {
 
 button[type="submit"] {
     background-color: #FFF5C2;
-    
+
+}
+
+#logo {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    width: 7.5%;
+    height: auto;
+}
+
+#slogan {
+    position: fixed;
+    top: 35px;
+    left: 50px;
+    width: 20%;
+    height: auto;
+}
+
+#home-button {
+    width: 30%;
+    height: auto;
+}
+
+#about-us-button {
+    width: 30%;
+    height: auto;
+}
+
+nav {
+    text-align: center; /* Center the content horizontally */
+    top: 60px;
+}
+
+#dash {
+    position: fixed;
+    text-align: center;
+    top: 120px;
+    left: 37.5%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 10px;
+}
+
+li img {
+    display: block;
+}
+
+#my-account {
+    position: fixed;
+    top: 15px;
+    right: 30px;
+    width: 6%;
+    height: auto;
+}
+
+#my-acc-icon {
+    position: fixed;
+    top: 11px;
+    right: 115px;
+    width: 2%;
+    height: auto;
+}
+
+#about-us-img {
+    width: 35%;
+    height: auto;
+    margin-top: 110px;
+}
+
+#about-us-blurb {
+    width: 75%;
+    height: auto;
+}
+
+#profile-name {
+    margin-top: 200px;
+    width: 20%;
+    height: auto;
 }
