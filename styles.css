@@ -133,7 +133,23 @@ li img {
 
 .clothing-item,
 .item-link {
-    width: 100%;
+    width: 75%;
+    height: auto;
+}
+
+.item-link {
+    margin-top: 30px;
+}
+
+
+#mug-img {
+    width: 55%;
+    height: auto;
+}
+
+
+.hat {
+    width: 90%;
     height: auto;
 }
 
@@ -141,12 +157,9 @@ li img {
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap to the next line */
     justify-content: center;
-    max-width: 50%;
+    max-width: 80%;
     margin: 20% auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
 }
 
 .clothes-list {
@@ -161,12 +174,10 @@ li img {
 .clothes-container {
     flex: 0 0 calc(33.33% - 10px); /* 33.33% width with 10px margin */
     margin-right: 10px;
-    margin-bottom: 10px; /* Adjust the spacing between rows and items */
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px; /* Adjust the spacing between rows and items */
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .product-name {
@@ -183,4 +194,10 @@ li img {
 .contact-seller {
     width: 15%;
     height: auto;
+}
+
+.dms-page {
+    width: 75%;
+    height: auto;
+    margin-top: 200px;
 }
