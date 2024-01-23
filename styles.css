@@ -45,7 +45,14 @@ input {
 
 button[type="submit"] {
     background-color: #FFF5C2;
+    width: 25%;
+    height: auto;
+    align-self: center;
+}
 
+#login-button {
+    width: 50%;
+    height: auto;
 }
 
 #logo {
@@ -70,7 +77,7 @@ button[type="submit"] {
 }
 
 #about-us-button {
-    width: 30%;
+    width: 55%;
     height: auto;
 }
 
@@ -139,14 +146,25 @@ li img {
 
 .item-link {
     margin-top: 30px;
+    margin-left: 35px;
 }
 
+#jersey-link {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+}
 
 #mug-img {
     width: 55%;
     height: auto;
 }
 
+#mug-text {
+    width: 75%;
+    height: auto;
+    margin-left: 20px;
+}
 
 .hat {
     width: 90%;
@@ -200,4 +218,11 @@ li img {
     width: 75%;
     height: auto;
     margin-top: 200px;
+}
+
+#send-mail-button {
+    width: 5%;
+    height: auto;
+    margin-left: 5px;
+    align-content: center;
 }
